@@ -14,3 +14,5 @@ function quickSort (arr) {
     return left.concat(right);
 }
 console.log(quickSort(arr));
+
+// 将数组第一个元素拿出来，遍历其他元素，比第一个小的放左边，大的放右边，递归
