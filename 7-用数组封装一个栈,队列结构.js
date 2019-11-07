@@ -19,4 +19,3 @@ Queue.prototype.push = function (value) {
 Queue.prototype.pop = function () {
     return this.arr.shift();
 }
-
