@@ -22,7 +22,7 @@ var reverseVowels = function (s) {
 
 // 解法2
 
-let list = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']
+// let list = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']
 var reverseVowels = function(s) {
   let arr = [];
   let sr = s.split('')
