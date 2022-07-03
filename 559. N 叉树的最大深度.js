@@ -19,3 +19,6 @@ var maxDepth = function (root) {
   if (maxs.length === 0) return 1;
   return Math.max(...maxs) + 1;
 };
+
+
+// 之后试试广搜
