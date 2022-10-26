@@ -16,9 +16,5 @@ var numWaterBottles = function (numBottles, numExchange) {
       return result;
     }
   }
-  if (numBottles >= numExchange) {
-    return _num(numBottles, numExchange, result);
-  } else {
-    return result;
-  }
+  return _num(numBottles, numExchange, result);
 };
