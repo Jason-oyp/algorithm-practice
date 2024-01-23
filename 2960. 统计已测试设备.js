@@ -14,3 +14,18 @@ var countTestedDevices = function (batteryPercentages) {
   }
   return ans;
 };
+
+// 解法二：
+/**
+ * @param {number[]} batteryPercentages
+ * @return {number}
+ */
+var countTestedDevices = function (batteryPercentages) {
+  let ans = 0;
+  for (let i = 0; i < batteryPercentages.length; i++) {
+    if (batteryPercentages[i] > ans) {
+      ans++;
+    }
+  }
+  return ans;
+};
